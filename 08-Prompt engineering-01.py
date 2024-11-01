@@ -13,8 +13,11 @@ def get_response(prompt):
 
 # Prompt
 conversation_messages = [
-    {"role": "system", "content": "You are helpful event management assistant"},
-    {"role": "user", "content": "What are some good conversation starters at networking events?"},
+    {"role": "system",
+     "content": "You are helpful event management assistant"},
+    {"role": "user",
+     "content": "What are some good conversation"
+                "starters at networking events?"},
     {"role": "assistant", "content": ""}
 ]
 
